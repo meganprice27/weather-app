@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Search city..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -27,21 +28,21 @@
       </header>
       <main>
         <div class="line-1">
-          <h1 class="weather-app-city">London</h1>
+          <h1 class="weather-app-city" id="city">London</h1>
           <div class="date-time">Wednesday 2 October, 11:12</div>
         </div>
         <div class="line-2">
           <div class="weather-details">
             <div class="icon">🌧️</div>
-              <ul class="temperature">
-                <li>
-                  <div class="temperature-container">
+            <ul class="temperature">
+              <li>
+                <div class="temperature-container">
                   <div class="temperature-value">11</div>
-                    <div class="unit">°C</div>
-                    </div>
-                </li>
-                <li class="weather-description">Rain</li>
-              </ul>
+                  <div class="unit">°C</div>
+                </div>
+              </li>
+              <li class="weather-description">Rain</li>
+            </ul>
           </div>
           <ul class="weather-stats">
             <li>Humidity: <strong>87%</strong></li>
@@ -66,5 +67,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
