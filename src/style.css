@@ -60,6 +60,46 @@ main {
   padding: 15px;
 }
 
+.line-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-details {
+  display: flex;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.temperature {
+  list-style-type: none;
+}
+
+.temperature-div {
+    display: flex;
+}
+
+.temperature-value {
+  font-size: 50px;
+}
+
+.unit {
+    margin-top: 10px;
+}
+
+.weather-description {
+    padding: 5px;
+}
+
+.weather-stats {
+  list-style-type: none;
+  margin: 0px;
+  padding: 25px 15px;
+
+}
+
 footer {
   border-top: 1px solid #f4eeff;
   padding: 20px 0 0 0;
