@@ -71,12 +71,14 @@ main {
 }
 
 .icon {
-  font-size: 65px;
-  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 12px 0;
 }
 
 .temperature {
   list-style-type: none;
+  padding: 0 0 0 20px;
 }
 
 .temperature-container {
