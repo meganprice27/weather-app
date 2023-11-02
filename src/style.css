@@ -58,6 +58,7 @@ main {
   list-style-type: none;
   margin: 0px;
   padding: 15px;
+  color: rgb(85, 85, 85);
 }
 
 .line-2 {
@@ -70,15 +71,16 @@ main {
 }
 
 .icon {
-  font-size: 60px;
+  font-size: 65px;
+  margin-top: 10px;
 }
 
 .temperature {
   list-style-type: none;
 }
 
-.temperature-div {
-    display: flex;
+.temperature-container {
+  display: flex;
 }
 
 .temperature-value {
@@ -86,18 +88,28 @@ main {
 }
 
 .unit {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .weather-description {
-    padding: 5px;
+  padding: 3px 7px;
+  color: rgb(85, 85, 85);
+  font-size: larger;
 }
 
 .weather-stats {
   list-style-type: none;
   margin: 0px;
   padding: 25px 15px;
+  color: rgb(85, 85, 85);
+}
 
+.weather-stats li {
+  padding: 5px;
+}
+
+.weather-stats strong {
+  color: blueviolet;
 }
 
 footer {
